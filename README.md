@@ -10,8 +10,7 @@ npm install --global gatsby-cli
 clone repo
 cd weekendread
 npm install
-npm run start
 ```
 
 ## Running in development
-`gatsby develop`
+`npm run start`
