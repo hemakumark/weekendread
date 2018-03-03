@@ -1,9 +1,16 @@
-# gatsby-starter-hello-world
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site
+# Weekend Read Webapp
+Webapp created with [Gatsby](https://www.gatsbyjs.org) site
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
+## Install
+
+### 1. Install dependencies
+```sh
+Node.js
+npm install --global gatsby-cli
+clone repo
+cd weekendread
+npm install
+npm run start
 ```
 
 ## Running in development
