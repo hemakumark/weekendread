@@ -9,7 +9,7 @@ Node.js
 npm install --global gatsby-cli
 clone repo
 cd weekendread
-npm install
+yarn install
 ```
 
 ## Running in development
