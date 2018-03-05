@@ -1,8 +1,14 @@
 import React from "react";
 //import Logo from "./logo.jpg";
+import Helmet from 'react-helmet';
 
 export default () =>
     <div style={{ margin: '0 auto 3rem auto', maxWidth: 1000 }}>
+        <Helmet>
+            <title>XT Weekend Read</title>
+            <meta charSet="utf-8" />
+            <link rel="canonical" href="https://weekendread-xt.firebaseapp.com/" />
+        </Helmet>
         <header>
 
                 <h1 style={{ borderBottom: '0'}}>Weekend Read</h1>
