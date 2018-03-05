@@ -10,7 +10,9 @@
   "dependencies": {
     "gatsby": "^1.9.218",
     "gatsby-link": "^1.6.37",
+    "gatsby-plugin-react-helmet": "^2.0.6",
     "gatsby-plugin-typography": "^1.7.17",
+    "react-helmet": "^5.2.0",
     "typography-theme-bootstrap": "^0.16.7",
     "typography-theme-github": "^0.15.10"
   }
