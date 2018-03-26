@@ -1,18 +1,20 @@
 import React from "react";
-//import Logo from "./logo.jpg";
+import Logo from "../images/logo.jpg";
 import Helmet from 'react-helmet';
-
+import Styles from "../styles/index.modules.module.css"
+console.log("Styles", {Styles});
 export default () =>
-    <div style={{ margin: '0 auto 3rem auto', maxWidth: 1000 }}>
+    <div className={Styles.container}>
         <Helmet>
             <title>XT Weekend Read</title>
             <meta charSet="utf-8" />
             <link rel="canonical" href="https://weekendread-xt.firebaseapp.com/" />
         </Helmet>
-        <header>
-
-                <h1 style={{ borderBottom: '0'}}>Weekend Read</h1>
-
+        <header className={Styles.header}>
+                <img src={Logo}/>
+                <h1 className={Styles.title}>Weekend Read</h1>
+                <input type="text" defaultValue="search" name="searchField" className={Styles.searchField}/>
+                <button className={Styles.btn}>Search</button>
         </header>
         <hr/>
         <ul>
